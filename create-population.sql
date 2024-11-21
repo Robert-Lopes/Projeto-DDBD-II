@@ -423,6 +423,7 @@ BEGIN
             cliente_id,
             transportadora_id
         );
+        Select * from pedido;
         
         -- Incrementa o ID e o índice
         SET id = id + 1;
@@ -3698,3 +3699,6 @@ CALL povoar_itens_pedido('[{
   "produtos_idprodutos": 97,
   "pedidos_idpedidos": 44
 }]');
+
+
+
